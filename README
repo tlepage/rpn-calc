@@ -1,1 +1,65 @@
-This is an example skeleton directory
+Name:  			rpn_calculator.rb
+Description:  	Reverse Polish Notation Calculator
+By:  			Tom LePage
+Date:  			03/24/2016
+Language:  		Ruby
+
+This is located on GitHub at: https://github.com/tlepage/rpn-calculator
+
+I conformed to the Ruby style guide located at:  
+	https://github.com/styleguide/ruby
+
+#### Specifications
+
+1. The calculator should use standard input and standard output, unless the
+   language makes that impossible.
+
+2. It should implement the four standard arithmetic operators.
+
+3. It should support negative and decimal numbers, and should not have
+   arbitrary limits on the number of operations.
+
+4. The calculator should not allow invalid or undefined behavior.
+
+5. The calculator should exit when it receives a `q` command or an end of input 
+   indicator (EOF).
+   
+In addition to the above specs, I also provided the following key commands:
+
+ - 's':  This will show the current items in the buffer so that the user
+         can easily see what they've input so far
+         
+ - 'c':  This will clear the calculator buffer
+ ####
+ 
+ I included functional tests in the /tests folder ("test_rpn_calculator.rb")
+ and validated that all of the tests pass.  If you'd like to run the tests,
+ on the command line, navigate to the top-level directory and type 'rake test'.
+ 
+ Here's the latest output from running my tests:
+ ####
+	# Running tests:
+
+	[ 1/11] TestRpnCalculator#test_add3
+		13
+	[ 3/11] TestRpnCalculator#test_decimal3.6            
+		14.3
+	[ 4/11] TestRpnCalculator#test_decimal_with_integer3.5 
+		1.5
+	[ 5/11] TestRpnCalculator#test_disallow_divide_by_zeroInvalid operation:  Divide by zero not allowed.
+	Invalid operation:  Divide by zero not allowed.
+	[ 6/11] TestRpnCalculator#test_divide5                                 
+		6
+	[ 7/11] TestRpnCalculator#test_invalid_buffer# Invalid operation:  not enough operands in buffer (need at least 2).
+	[ 8/11] TestRpnCalculator#test_multiply10                     
+		42
+	[ 9/11] TestRpnCalculator#test_negative-3               
+		-13
+	[10/11] TestRpnCalculator#test_show[1, 2, 3, "-"]       
+	[11/11] TestRpnCalculator#test_subtract-1           
+	-1
+	Finished tests in 0.008959s, 1227.8156 tests/s, 2120.7724 assertions/s.
+	11 tests, 19 assertions, 0 failures, 0 errors, 0 skips
+ ####
+ 
+ To run the calculator, simply type 'ruby runner.rb'.

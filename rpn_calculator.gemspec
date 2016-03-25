@@ -7,13 +7,13 @@ Gem::Specification.new do |spec|
   spec.version		 = '1.0'
   spec.authors		 = ["Thomas LePage"]
   spec.email		 = ["thomaslepage@live.com"]
-  spec.summary		 = %q{Short summary of your project}
-  spec.description   = %q{Longer description of your project}
+  spec.summary		 = %q{Reverse Polish Notation Calculator}
+  spec.description   = %q{RPN Calculator that runs from command line}
   spec.homepage      = "https://portfolio-lepage.herokuapp.com"
   spec.license       = "MIT"
   
-  spec.files         = ['lib/NAME.rb']
-  spec.executables   = ['bin/NAME']
-  spec.test_files    = ['tests/test_NAME.rb']
+  spec.files         = ['lib/rpn_calculator.rb']
+  spec.executables   = ['bin/rpn_calculator']
+  spec.test_files    = ['tests/test_rpn_calculator.rb']
   spec.require_paths = ["lib"]
 end
