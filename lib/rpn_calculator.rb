@@ -102,6 +102,12 @@ module RpnCalculator
 		puts "# | Date:         03/24/2016"
 		puts "# | Language:     Ruby"
 		puts "#  ---------------------------------------------------"
+		puts "# Commands:"
+		puts "# 'q' - Quit"
+		puts "# 'c' - Clear Buffer"
+		puts "# 's' - Show Buffer"
+		puts "# Type in any number (decimal and negatives allowed)"
+		puts "# Operators supported:  +, -, *, /"
 	
 		begin
   		print "> "
