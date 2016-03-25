@@ -64,4 +64,4 @@ In addition to the above specs, I also provided the following key commands:
 	11 tests, 20 assertions, 0 failures, 0 errors, 0 skips
  ####
  
- To run the calculator, simply type 'ruby runner.rb' from top-level directory.
+ To run the calculator, simply type 'ruby runner.rb' from lib directory.
