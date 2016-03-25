@@ -59,7 +59,7 @@ module RpnCalculator
     			puts "Invalid operation:  Divide by zero not allowed."
     			div_by_zero = true
     		else
-    			result = a / b
+    			result = (a.to_f / b.to_f)
     		end
     	end
     

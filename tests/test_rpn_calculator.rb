@@ -69,6 +69,10 @@ class TestRpnCalculator < Test::Unit::TestCase
 		buffer = [1, 2, 3, 4, 5, 42, 7, '/']
 		RpnCalculator.evaluate_buffer(buffer)
 		assert_equal([1, 2, 3, 4, 5, 6], buffer)
+		
+		buffer = [7, 2, '/']
+		RpnCalculator.evaluate_buffer(buffer)
+		assert_equal([3.5], buffer)
 	end
 	
 	def test_decimal

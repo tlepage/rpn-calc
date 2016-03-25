@@ -47,9 +47,10 @@ In addition to the above specs, I also provided the following key commands:
 	[ 4/11] TestRpnCalculator#test_decimal_with_integer3.5 
 		1.5
 	[ 5/11] TestRpnCalculator#test_disallow_divide_by_zeroInvalid operation:  Divide by zero not allowed.
-	Invalid operation:  Divide by zero not allowed.
-	[ 6/11] TestRpnCalculator#test_divide5                                 
-		6
+		Invalid operation:  Divide by zero not allowed.
+	[ 6/11] TestRpnCalculator#test_divide5.0                               
+		6.0
+		3.5
 	[ 7/11] TestRpnCalculator#test_invalid_buffer# Invalid operation:  not enough operands in buffer (need at least 2).
 	[ 8/11] TestRpnCalculator#test_multiply10                     
 		42
@@ -58,8 +59,9 @@ In addition to the above specs, I also provided the following key commands:
 	[10/11] TestRpnCalculator#test_show[1, 2, 3, "-"]       
 	[11/11] TestRpnCalculator#test_subtract-1           
 	-1
-	Finished tests in 0.008959s, 1227.8156 tests/s, 2120.7724 assertions/s.
-	11 tests, 19 assertions, 0 failures, 0 errors, 0 skips
+	
+	Finished tests in 0.006771s, 1624.5754 tests/s, 2953.7734 assertions/s.
+	11 tests, 20 assertions, 0 failures, 0 errors, 0 skips
  ####
  
  To run the calculator, simply type 'ruby runner.rb'.
