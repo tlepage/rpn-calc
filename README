@@ -4,7 +4,7 @@ By:  			Tom LePage
 Date:  			03/24/2016
 Language:  		Ruby
 
-This is located on GitHub at: https://github.com/tlepage/rpn-calculator
+This is located on GitHub at: https://github.com/tlepage/rpn-calc
 
 I conformed to the Ruby style guide located at:  
 	https://github.com/styleguide/ruby
@@ -64,4 +64,4 @@ In addition to the above specs, I also provided the following key commands:
 	11 tests, 20 assertions, 0 failures, 0 errors, 0 skips
  ####
  
- To run the calculator, simply type 'ruby runner.rb'.
+ To run the calculator, simply type 'ruby runner.rb' from top-level directory.
