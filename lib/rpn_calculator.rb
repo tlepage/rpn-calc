@@ -1,6 +1,5 @@
 # Using style guide from https://github.com/styleguide/ruby
 module RpnCalculator
-
 	VALID_OPERATORS = ['+', '-', '*', '/']
 	COMMAND_CLEAR = 'c'
 	COMMAND_SHOW = 's'
@@ -144,6 +143,3 @@ module RpnCalculator
 		end while !(input == COMMAND_QUIT)
 	end
 end
-
-
-
